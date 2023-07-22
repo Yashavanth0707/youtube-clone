@@ -30,19 +30,19 @@ const Header = () => {
   // useEffect(() => {
     // console.log(searchQuery);
     // const timer = setTimeout(() => getSearchsug(), 300);
-    // return () => {
-    //   clearTimeout(timer);
-    // };
+  //   return () => {
+  //     clearTimeout(timer);
+  //   };
   // }, [searchQuery]);
 
-  const getSearchsug = async () => {
+  // const getSearchsug = async () => {
     // console.log(searchQuery);
-    const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
-    const json = await data.json();
-    setSuggestion(json[1]);
+    // const data = await fetch(YOUTUBE_SEARCH_API + searchQuery);
+    // const json = await data.json();
+    // setSuggestion(json[1]);
     // console.log(json);
     // console.log(json[1]);
-  };
+  // };
 
   const dispatch = useDispatch();
   const toggleMenuhandler = () => {
