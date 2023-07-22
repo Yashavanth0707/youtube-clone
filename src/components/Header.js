@@ -27,13 +27,13 @@ const Header = () => {
     setIsScrolling(true);
   }
 
-  useEffect(() => {
+  // useEffect(() => {
     // console.log(searchQuery);
-    const timer = setTimeout(() => getSearchsug(), 300);
-    return () => {
-      clearTimeout(timer);
-    };
-  }, [searchQuery]);
+    // const timer = setTimeout(() => getSearchsug(), 300);
+    // return () => {
+    //   clearTimeout(timer);
+    // };
+  // }, [searchQuery]);
 
   const getSearchsug = async () => {
     // console.log(searchQuery);
